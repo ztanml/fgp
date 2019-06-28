@@ -9,4 +9,4 @@
   * runCC.m: plots statistical parity vs prediction error with multiple protected attributes on the Communities & Crime dataset
 
 ### Datasets
-  * The datasets are obtained using https://github.com/jmikko/fair_ERM and https://github.com/jkomiyama/fairregresion
+  * The datasets were obtained using https://github.com/jmikko/fair_ERM and https://github.com/jkomiyama/fairregresion

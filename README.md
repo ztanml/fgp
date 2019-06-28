@@ -9,7 +9,7 @@ In Matlab:
 ```
 This commands trains a GP model using training data: x_train (n-by-p and each row is a feature vector), y_train (n-by-1 label vector), s_train (n-by-d, each row is a vector of protected attributes), m=1, d=1, and eps=1. 'fgp_rbf' specifies the RBF kernel and 'covkpar' specifies the bandwidth, i.e., 3.2365, for the RBF kernel. 'eo' specifies equalized odds as the fairness criterion to use.
 
-Upon completion, hyp holds the model structure, and hyp.f(XT) gives the prediction. See the following examples for demonstrations.
+Upon completion, hyp holds the model structure, and hyp.f(x_test) gives the prediction. See the following examples for demonstrations.
 
 ### Examples
   * plot_adult_sp.m: plots statistical parity vs prediction error on the UCI adult dataset

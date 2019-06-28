@@ -33,6 +33,7 @@ function hyp = fgp(X,y,S,m,d,eps,varargin)
 %
 % Author: Zilong Tan (zilongt@cs.cmu.edu)
 % Date: June 28th 2019
+% More details can be found in the paper: https://arxiv.org/pdf/1906.11813.pdf
 
 hyp = struct();
 [n,p] = size(X);

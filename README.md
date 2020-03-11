@@ -1,7 +1,6 @@
 # FGP
   * A Gaussian Process that satisfies several fairness criteria
-  * Provides code and data for the paper: *Learning Fair Representations for Kernel Models*, The 23rd International Conference on
-Artificial Intelligence and Statistics (AISTATS 2020). Available at https://arxiv.org/abs/1906.11813
+  * Provides code and data for the paper: *Learning Fair Representations for Kernel Models*, AISTATS 2020. Available at https://arxiv.org/abs/1906.11813
 
 ### Basic Usage
 In Matlab:
